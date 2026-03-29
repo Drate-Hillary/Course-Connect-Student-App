@@ -1,0 +1,73 @@
+name: course_connect
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  http: ^1.6.0
+  intl: ^0.20.2
+  logger: ^2.6.2
+  lottie: ^3.3.2
+  shimmer: ^3.0.0
+  image_picker: ^1.2.1
+  url_launcher: ^6.3.2
+  dynamic_path_url_strategy: ^1.0.0
+  connectivity_plus: ^7.0.0
+  flutter_native_splash: ^2.4.7
+  smooth_page_indicator: ^2.0.1
+  awesome_snackbar_content: ^0.1.8
+  carousel_slider: ^5.1.2
+  badges: ^3.1.2
+  fl_chart: ^1.2.0
+  data_table_2: ^2.7.2
+
+  # state management
+  get: ^4.6.5
+  get_storage: ^2.1.1
+
+  # firebase hosting
+  firebase_core: ^4.5.0
+
+  # icons
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/animations/
+    - assets/images/
+    - assets/images/logo/
+    - assets/images/avatar/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-ExtraBold.ttf
+          weight: 800
