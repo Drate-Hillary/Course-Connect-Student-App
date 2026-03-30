@@ -1,4 +1,5 @@
 import 'package:course_connect/features/dashboard/screen/widgets/dashboard_header.dart';
+import 'package:course_connect/features/dashboard/screen/widgets/dashboard_overview.dart';
 import 'package:course_connect/features/dashboard/screen/widgets/schedule_indicator.dart';
 import 'package:course_connect/features/settings/screens/Academic/widgets/academic_chart.dart';
 import 'package:course_connect/util/constants/size.dart';
@@ -14,7 +15,10 @@ class Dashboard extends StatelessWidget {
         children: [
           DashboardHeader(),
           const SizedBox(height: AppSize.sizedBoxHeightSm),
-          // carousel slider
+
+          // overview
+          DashboardOverview(),
+          // schedule slider
           Padding(
             padding: const EdgeInsets.all(AppSize.md),
 

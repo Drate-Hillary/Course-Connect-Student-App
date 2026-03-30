@@ -12,7 +12,7 @@ class DashboardHeader extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(AppSize.sm),
       child: Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Row(

@@ -22,7 +22,7 @@ class ScheduleIndicator extends StatelessWidget {
           options: CarouselOptions(
             viewportFraction: 1,
             height:
-                DeviceUtility.getScreenHeight(context) * 0.18,
+                DeviceUtility.getScreenHeight(context) * 0.22,
             enableInfiniteScroll: false,
             onPageChanged: (index, _) => controller.updateCarouselIndex(index)
           ),
