@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 
 class AcademicsController extends GetxController {
-  static AcademicsController instance = Get.find();
+  static AcademicsController get instance => Get.find();
 
   final RxList<double> coursePerformance = <double>[].obs;
 

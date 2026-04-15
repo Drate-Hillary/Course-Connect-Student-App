@@ -1,17 +1,9 @@
+import 'package:course_connect/features/dashboard/screen/widgets/overview_card.dart';
 import 'package:course_connect/util/constants/size.dart';
 import 'package:flutter/material.dart';
 
 class DashboardOverview extends StatelessWidget {
-  const DashboardOverview({
-    super.key,
-  });
-
-  final List<Widget> overviewCards = [
-    const OverviewCard(),
-    const OverviewCard(),
-    const OverviewCard(),
-    const OverviewCard(),
-  ];
+  const DashboardOverview({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,29 +12,12 @@ class DashboardOverview extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          List.generate(overviewCards.length, () => const OverviewCard())
+          OverviewCard(title: 'Total Courses', count: '12'),
+          const Spacer(),
+          OverviewCard(title: 'UpComing Quiz', count: '5'),
+          const Spacer(),
+          OverviewCard(title: 'Attendence', count: '245'),
         ],
-      ),
-    );
-  }
-}
-
-class OverviewCard extends StatelessWidget {
-  const OverviewCard({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      height: 60,
-      width: 130,
-      decoration: BoxDecoration(
-        color: Colors.blue.shade50,
-        borderRadius: BorderRadius.circular(10),
-      ),
-      child: const Center(
-        child: Text("Overview"),
       ),
     );
   }

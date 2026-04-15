@@ -22,7 +22,7 @@ class Login extends StatelessWidget {
 
               const SizedBox(height: AppSize.spaceBtwSections),
 
-              LoginForm(),
+              const LoginForm(),
             ],
           ),
         ),
