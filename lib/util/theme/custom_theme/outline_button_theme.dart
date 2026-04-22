@@ -10,7 +10,7 @@ class CustomOutlineButtonTheme {
         borderRadius: BorderRadius.circular(8),
       ),
       foregroundColor: Colors.white,
-      backgroundColor: AppColors.blackColor,
+      backgroundColor: Colors.transparent,
       side: BorderSide(color: AppColors.blackColor),
       padding: const EdgeInsets.symmetric(vertical: 20),
       

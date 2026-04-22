@@ -39,6 +39,7 @@ dependencies:
   iconsax: ^0.0.8
   cupertino_icons: ^1.0.8
   hugeicons: ^1.1.6
+  flutter_svg: ^2.2.4
 
 dev_dependencies:
   flutter_test:
@@ -57,6 +58,7 @@ flutter:
     - assets/images/logo/
     - assets/images/avatar/
     - assets/images/app_images/
+    - assets/images/onboarding/
 
   fonts:
     - family: Poppins

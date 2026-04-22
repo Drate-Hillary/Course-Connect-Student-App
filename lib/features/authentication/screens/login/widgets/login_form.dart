@@ -1,3 +1,4 @@
+import 'package:course_connect/common/loaders/loaders.dart';
 import 'package:course_connect/features/authentication/screens/password%20configuration/forgot_password.dart';
 import 'package:course_connect/navigation_menu.dart';
 import 'package:course_connect/util/constants/size.dart';
@@ -61,7 +62,12 @@ class LoginForm extends StatelessWidget {
           SizedBox(
             width: double.infinity,
             child: ElevatedButton(
-              onPressed: ()=> Get.to(()=> NavigationMenu()),
+              onPressed: ()=> {
+                AppLoaders.successSnackBar(title: "Login Successful", message: "Welcome back, John Doe!"),
+                Future.delayed(const Duration(seconds: 2), () {
+                  Get.offAll(() => const NavigationMenu());
+                }),
+              },
               child: Text(TextStrings.signIn),
             ),
           ),

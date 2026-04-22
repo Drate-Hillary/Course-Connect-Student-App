@@ -1,4 +1,5 @@
 import 'package:course_connect/features/authentication/screens/login/login.dart';
+import 'package:course_connect/features/onboarding/screens/onboarding.dart';
 import 'package:course_connect/util/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -11,7 +12,7 @@ class App extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       theme: AppTheme.lightTheme,
-      home: const Login(),
+      home: const Onboarding(),
     );
   }
 }

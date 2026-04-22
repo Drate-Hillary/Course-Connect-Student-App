@@ -1,3 +1,4 @@
+import 'package:course_connect/features/courses/screens/courses.dart';
 import 'package:course_connect/features/dashboard/screen/dashboard.dart';
 import 'package:course_connect/features/settings/screens/settings.dart';
 import 'package:flutter/material.dart';
@@ -38,7 +39,7 @@ class NavigationController extends GetxController {
 
   final screens = [
     const Dashboard(),
-    Container(color: Colors.blue),
+    const Courses(),
     Container(color: Colors.green),
     Container(color: Colors.yellow),
     const Settings(),

@@ -4,7 +4,7 @@ class TextStrings {
 
   // onboarding screen
   static const String onBoardingTitle1 = "Learn at Your Own Pace";
-  static const String onBoardingSubTitle1 = "Access courses and materials and learn new skills at your own convenience. Study anytime, anywhere with our flexible learning platform.";
+  static const String onBoardingSubTitle1 = "Study anytime, anywhere with our flexible learning platform.";
   static const String onBoardingTitle2 = "Task Management";
   static const String onBoardingSubTitle2 = "Effortlessly manage your tasks and boost productivity";
   static const String onBoardingTitle3 = "Realtime Updates";

@@ -15,9 +15,9 @@ class AppImage {
   // animations
   static const String docerAnimation = 'assets/animations/Animation - 1734020174401.json';
   static const String splashAnimation = 'assets/animations/splash.json';
-  static const String onboarding1 = 'assets/animations/smart_learning.json';
-  static const String onboarding2 = 'assets/animations/task_management.json';
-  static const String onboarding3 = 'assets/animations/updates.json';
+  static const String onboarding1 = 'assets/images/onboarding/onboarding1.svg';
+  static const String onboarding2 = 'assets/images/onboarding/onboarding2.png';
+  static const String onboarding3 = 'assets/images/onboarding/onboarding3.png';
   static const String forgotPassword = 'assets/animations/Forget_password.json';
 
   // authentication
